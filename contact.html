@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Pets</title>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+ 
+
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "style.css">
+    
+ 
+
+</head>
+<body>
+    
+      <!-- navbar -->
+    <div class="container nav">
+        <nav class="containter navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                    <img src="img/paw.png" class="mb-2" alt="site icon">
+                    <h5 class="text-uppercase fw-lighter ms-2">Happy Pets</h5>
+                </a>
+                <div class="order-lg-2 nav-btns">
+                    <form class="text-end order-lg-3">
+                        <button class="btn-add position-relative border-0 bg-transparent" type="button"
+                            onclick="location.href='cart.html'"> <i class="fa fa-shopping-cart"></i>
+                            <span id=" cart-total"
+                                class="position-absolute top-0 start-100 translate-middle badge bg-primary border-0">0</span>
+                        </button>
+                    </form>  
+                </div>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                        <div class="navbar-toggler-icon"></div>
+                    </button>
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="services.html">services</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="about.html">about us</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+        </nav>
+        
+        </div>
+    <!--end of navbar----->
+
+
+
+    <section id="page-header" class="about-header">
+        <h2>#Lets_talk</h2>
+
+        <p>LEAVE A MESSSAGE, We love to hear from you!</p>
+    </section>
+
+    <section id="contact-details" class="section-p1">
+       <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit one of our store locations or contact us today</h2>
+        <h3>Head Office</h3>
+        <div>
+            <li>
+                <i class="fa fa-map"></i>
+                <p>Block 29 Lot 11 sawata Street Caloocan</p>
+            </li>
+            <li>
+                <i class="fa fa-envelope"></i>
+                <p>happypetssupport@gmail.com</p>
+            </li>
+            <li>
+                <i class="fa fa-phone-alt"></i>
+                <p>+639252466087</p>
+            </li>
+            <li>
+                <i class="fa fa-clock"></i>
+                <p>Monday to Saturday: 9:00am to 7:pm</p>
+            </li>
+    
+            
+    
+        </div>
+    
+
+       </div>
+
+       <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.3152784291283!2d120.96733844928278!3d14.638036189728444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5c14c2cbd5f%3A0xfd0c88686c978c49!2sFishpond%20Sawata%201%2C%20Maypajo%2C%20Caloocan%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1675306690324!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+       </div>
+    </section>
+
+    <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id=""cols="30" rows="10" placeholder="Your Message">
+              
+            </textarea>
+            <button class="normal">Submit</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="img/people1.png" alt="">
+                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people2.png" alt="">
+                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people3.png" alt="">
+                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+        </div>
+       
+    </section>
+
+    
+
+
+
+
+
+
+
+       
+
+
+ 
+
+
+    <!-- newsletter -->
+    <section id = "newsletter" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3 pb-5">
+                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
+                </div>
+
+                <p class = "text-center text-muted">Get awesome exclusives and more deals when you subscribe!</p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of newsletter -->
+
+    
+    <!-- footer -->
+    <footer class = "bg-dark py-5">
+        <div class = "container">
+            <div class = "row text-white g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">HAPPY PETS</a>
+                    <p class = "text-white text-muted mt-3">"We are one of the most trusted in our field. We provide excellent grooming service, sell quality pet merchandise,and long-term dog&cat boarding services."</p>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light">Links</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "index.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "shop.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Shop
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "services.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Services
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> About Us
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            Albert Street,764 Fairview, Quezon City,Philippines
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                            happypetssupport@gmail.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +9786 6776 236
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class = "list-unstyled d-flex">
+                            <li>
+                                <a href = "https://www.facebook.com/profile.php?id=100089342208400" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+    
+
+
+
+ <!-- Messenger Chat Plugin Code -->
+ <div id="fb-root"></div>
+
+ <!-- Your Chat Plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+ </div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "102174862782510");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    
+    
+
+
+    <!--jquery-->
+    <script src="js/jquery-3.6.3.js"></script>
+
+    <!---isotope js----->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+    <!--bootstarp js------>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!--custom JS-->
+    <script src = "js/script.js"></script> 
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+   <script></script>
+ 
+</body>
+</html>

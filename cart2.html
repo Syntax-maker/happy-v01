@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - Happy Cats</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- Google Web Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Flaticon Font -->
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="cart.css">
+  
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top shadow-sm p-3 mb-5 ">
+        <div>
+            
+        </div><form class="container">
+            <button class="btn-add position-relative border-0 bg-transparent" type="button" onclick="location.href='new-shop.html'"></i>
+           Continue ordering</span>
+        </button>
+        <button class="navbar-toggler border-0 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <div class="navbar-toggler-icon"></div>
+        </button>
+        <div class="collapse navbar-collapse " id="navMenu">
+            <ul class="navbar-nav mx-auto text-center">
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#special">services</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#blogs">about us</a>
+                </li>
+                <li class="nav-item px-2 py-2">
+                    <a class="nav-link text-uppercase text-dark" href="#about">contact</a>
+                </li>
+            </ul>
+        </div>
+       
+        </form>
+
+        <div class="nav">
+            <a href="cart.html">cart<span>0</span></a>
+        </div>
+      </nav>
+   
+    <!-- Cart -->
+    <section class="py-5">
+        <div class="container pt-5">
+            <div class = "title text-center pt-5">
+                <h2 class = "position-relative d-inline-block">Cart </h2>
+            </div>
+    
+        </div>
+        <section id="cart-container" class="container my-5">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td> Image</td>
+                    <td> Name</td>
+                    <td>Price</td>
+                    <td> Quantity</td>
+                    <td> Total</td>
+                    <td class="text-start">Remove</td>
+                </tr>
+            </thead>
+            <tbody class="cartdisp ">
+               <tr >
+                <td colspan="6" class="item-empty py-4">Your cart is empty</td> 
+               </tr>
+            </tbody>
+            </table>
+          
+        </section>
+        <section id="cart-bottom" class="container">
+            <div class="row">
+                <div class="cuupont col-lg-6 col-md-6 col-12 mb-4">
+                 
+                </div>
+                <div class="totalt col-lg-6 col-md-6 col-12 mb-4">
+                    <h5>CART TOTAL</h5>
+                    <div class="d-flex justify-content-between">
+                        <h6>Subtotal</h6>
+                        <div class="priceView">
+                            <h6>0</h6> 
+                           </div>
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <h6> Shipping </h6>
+                        <div class="Shipping">
+                            <h6>0</h6> 
+                           </div>
+                    </div>
+                    <hr class="second-hr">
+                    <div class="d-flex justify-content-between">
+                        <h6> Total </h6>
+                        <div class="Total-item">
+                            <h6> 0</h6> 
+                           </div>
+                    </div>
+                    <button class="btn btn-danger btn-purchase w-100" type="submit" onclick="location.href='payment.html'" id="checkout" disabled>CHECKOUT</button>
+    
+                </div>
+            </div>
+        </section>
+        <!-- <div class="container row displayItem">
+            <div class="col item text-white"><h6>Product/s</h6></div> 
+            <div class="col names text-white"><h6>name</h6></div> 
+            <div class="col prices text-white"><h6>price</h6></div>
+             <div class="col quantity text-white"><h6>Quantity</h6></div>
+             <div class="col total text-white"><h6>Total</h6></div>             
+         </div> -->
+
+       
+         <!-- <div class="cartdisp text-center">Your cart is empty</div> -->
+
+    
+    </section>
+    <!--jquery-->
+    <script src="js/jquery-3.6.3.js"></script>
+
+    <!---isotope js----->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+
+    <!--bootstarp js------>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+<script src="index2.js"></script>
+</body>
+
+</html>
