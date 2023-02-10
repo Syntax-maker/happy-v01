@@ -232,6 +232,49 @@ body{
 /* add-to-cart-/
 
 
+/* services */
+
+#page-header-service{
+    background-image: url('img/banner.png');
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+    margin-top:60px;
+}
+#page-header-service h2,
+#page-header-service p{
+    color: #fff;
+    
+}
+
+/*Booking Form*/
+.booking{
+    background: linear-gradient(rgba(15, 23, 43,0.7),rgba(15, 23, 43,0.7)), url('img/cats/price-3.jpg') ;
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    text-emphasis-color: var(--light);
+    width: 100%;
+}
+
+.form-floating {
+width: 100%;
+padding-top: 10px;
+padding: 1.5rem 1.35rem calc(9.75rem -2px) 1.54rem;
+border: none;
+outline: none;
+font-family: inherit;
+border-radius:20px ;
+font-weight: 600;
+color: #e1e1e1;
+}
+
+
 
 /* footer */
 footer .brand{
