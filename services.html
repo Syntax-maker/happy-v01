@@ -1,118 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
-
+    <title>  Happy Cats | Services</title>
+    <!-- bootstrap css -->
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
 
-
-
     <!-- Flaticon Font -->
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-
-    <!-- Libraries Stylesheet -->
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
- 
 
 
     <!-- fontawesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap css -->
     <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
     <!-- custom css -->
     <link rel = "stylesheet" href = "style.css">
     
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-</head>
-<body>
-    
-     <!-- navbar -->
-     <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
-        <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
-                <img src = "img/paw.png" alt= "site icon">
-                <h5 class="text-uppercase fw-lighter ms-2">Happy Pets</h5>
-            </a>
-
-            <div class = "order-lg-2 nav-btns">
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-shopping-cart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
-                </button>
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-heart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
-                </button>
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-search"></i>
-                </button>
-            </div>
-
-            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "">
-                <span class = "navbar-toggler-icon"></span>
-            </button>
-
-            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                <ul class = "navbar-nav mx-auto text-center">
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "new-shop.html">shop</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "services.html">Services</a>
-                    </li>
+  
+ </head>
+ <body>
+    <!-- navbar -->
+    <div class="container nav">
+        <nav class="containter navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                    <img src="img/paw.png" class="mb-2" alt="site icon">
+                    <h5 class="text-uppercase fw-lighter ms-2">Happy Pets</h5>
                     
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "about.html">About us</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "contact.html">contact</a>
-                    </li>
-                    
-                    
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!--end of navbar----->
-
-
-  <!-- Offer Start -->
-  <div class="container-fluid bg-offer my-5 py-5">
-    <div class="container py-5">
-        <div class="row gx-5 justify-content-start">
-            <div class="col-lg-7">
-                <div class="border-start border-5 border-dark ps-5 mb-5">
-                    <h6 class="text-dark text-uppercase">Special Offer</h6>
-                    <h1 class="display-5 text-uppercase text-white mb-0">Save 50% on all items your first order</h1>
+                </a>
+                <div class="order-lg-2 nav-btns">
+                    <form class="text-end order-lg-3">
+                        <button class="btn-add position-relative border-0 bg-transparent" type="button"
+                            onclick="location.href='cart2.html'"> <i class="fa fa-shopping-cart"></i>
+                           
+                            <span id=" cart-total"
+                                class="position-absolute top-0 start-100 translate-middle badge bg-primary border-0">0</span>
+                        </button>
+                    </form>  
                 </div>
-                <p class="text-white mb-4">Eirmod sed tempor lorem ut dolores sit kasd ipsum. Dolor ea et dolore et at sea ea at dolor justo ipsum duo rebum sea. Eos vero eos vero ea et dolore eirmod et. Dolores diam duo lorem. Elitr ut dolores magna sit. Sea dolore sed et.</p>
-                <a href="" class="btn btn-light py-md-3 px-md-5 me-3">Shop Now</a>
-                <a href="" class="btn btn-outline-light py-md-3 px-md-5">Read More</a>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                        <div class="navbar-toggler-icon"></div>
+                    </button>
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="services2.html">services</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="about.html">about us</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+               
             </div>
+        </nav>
         </div>
-    </div>
-    
-</div>
-<!-- Offer End -->
+    <!--end of navbar----->
+  
+    <section id="page-header-service" class="about-header-service">
+        <h2>#PetPamperingParadise</h2>
 
-
-
-
-
-
+        <p>"Where your furry friends get the VIP treatment they deserve."</p>
+    </section>
 
 <!---Services-->
 <div class="container-fluid">
@@ -130,7 +98,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
                         nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
                     </p>
-                    <a href = "#" class = "btn">Read More</a>
+                    <div class="text-center">
+                        <span class="fw-bold d-block shop-item-price"> 590.00 per day</span> 
+                    </div>
+                    <!-- <a href = "#" class = "btn">Read More</a> -->
                 </div>
             </div>
             <!-- card ends here -->
@@ -147,7 +118,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
                         nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
                     </p>
-                    <a href = "#" class = "btn">Read More</a>
+                    <div class="text-center">
+                        <span class="fw-bold d-block shop-item-price"> 590.00 per day</span> 
+                    </div>
+                    <!-- <a href = "#" class = "btn">Read More</a> -->
                 </div>
             </div>
             <!-- card ends here -->
@@ -164,7 +138,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
                         nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
                     </p>
-                    <a href = "#" class = "btn">Read More</a>
+                    <div class="text-center">
+                        <span class="fw-bold d-block shop-item-price"> 590.00 per day</span> 
+                    </div>
+                    <!-- <a href = "#" class = "btn">Read More</a> -->
                 </div>
             </div>
             <!-- card ends here -->
@@ -181,7 +158,10 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eligendi soluta est veniam sequi
                         nemo, quas delectus eveniet ducimus rem animi. Natus non earum deleniti aliquam
                     </p>
-                    <a href = "#" class = "btn">Read More</a>
+                    <div class="text-center">
+                        <span class="fw-bold d-block shop-item-price"> 590.00 per day</span> 
+                    </div>
+                    <!-- <a href = "#" class = "btn">Read More</a> -->
                 </div>
             </div>
             <!-- card ends here -->
@@ -191,173 +171,146 @@
 </div>
 <!--Services End-->
 
-
-      
+     
        <!--Booking-->
-<div class="container-xxl py-5 w-100">
-    <div class="container">
-        <div class="booking p-5">
-            <div class="row g-5 align-items-center">
-              <div class="col-md-6 text-white text-uppercase">
-                <h6 class="text-white text-uppercase">Going for a vacation?</h6>
-                <h1 class="text-white mb-4">Book for your pets</h1>
-                <p class="mb-4">"We are one of the most trusted in our field. We provide excellent grooming service, sell quality pet merchandise,</p>
-                <p class="mb-4"> provide convenient pet day care, and offer the highest standards of tailor-fit overnight and long-term dog&cat boarding services."</p>
-                <a href="" class="btn btn-outline-light py-3 px-5 mt-2">Read More</a>
-              
-            </div>  
-            <div class="col-md-6">
-                <h1 class="text-white mb-4">
-                    BOOK FOR YOUR PETS
-                </h1>
-                <form class="needs-validation" novalidate>
-                    <div class="row g-3">
-
-                        <div class="col-md-6">
-                            <div class="form-floating">
-                                <label for="name" class=" form-label text-white ">Your Name</label>
-                                <input type="text" class="form-control bg-transparent text-white" id="name"  required> 
+       <div class="container-xxl py-5 w-100">
+        <div class="container">
+            <div class="booking p-5">
+                <div class="row g-5 align-items-center">
+                  <div class="col-md-6 text-white text-uppercase">
+                    <h6 class="text-white text-uppercase">Going for a vacation?</h6>
+                    <h1 class="text-white mb-4">Book for your pets</h1>
+                    <p class="mb-4">"We are one of the most trusted in our field. We provide excellent grooming service, sell quality pet merchandise,</p>
+                    <p class="mb-4"> provide convenient pet day care, and offer the highest standards of tailor-fit overnight and long-term dog&cat boarding services."</p>
+                    <a href="" class="btn btn-outline-light py-3 px-5 mt-2">Read More</a>
+                  
+                </div>  
+                <div class="col-md-6">
+                    <h1 class="text-white mb-4">
+                        BOOK FOR YOUR PETS
+                    </h1>
+                    <form class="needs-validation" id="formSection" novalidate>
+                        <div class="row g-3">
+    
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <label for="name" class=" form-label text-white ">Your Name</label>
+                                    <input type="text" class="form-control bg-transparent text-white" id="name"  required> 
+                                    <div class="valid-feedback"> Valid </div>
+                                    <div class="invalid-feedback"> Please fill out this field </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <label for="name" class=" form-label text-white ">Your Email</label>
+                                    <input type="email" placeholder="Your email" class="form-control bg-transparent text-white" id="email" required>
+                                    <div class="valid-feedback"> Valid </div>
+                                    <div class="invalid-feedback"> Please fill out this field </div> 
+                                    
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating" id="date3">
+                                    <label for="datetime" class="text-white "></label>
+                                    <input type="date" class="form-control text-white bg-transparent " id="calendar" required > 
+                                    <div class="valid-feedback"> Valid </div>
+                                    <div class="invalid-feedback"> Please fill out this field </div>
+                                    
+                                </div>
+                            </div>
+    
+                            <div class="col-md-6">
+                                <div class="form-floating" id="date3">
+                                    <label for="datetime" class="text-white "></label>
+                                    <input type="time" class="form-control text-white bg-transparent " id="time" required > 
+                                    <div class="valid-feedback"> Valid </div>
+                                    <div class="invalid-feedback"> Please fill out this field </div>
+                                    
+                                </div>
+                            </div>
+                            <!--Select box-->
+                            <div class="col-md-6  text-white "  >
+                
+                                <div class="form-floating" >
+                                    <label for="validationTooltip04" class="form-label  ">Services</label>
+                                        <select class="form-select bg-transparent text-white  " id="validationTooltip04" required>
+                                          <option class="bg-dark text-white " selected disabled value="" ></option>
+                                          <option class="bg-dark">Pet Boarding</option>
+                                          <option class="bg-dark">Pet Grooming</option>
+                                          <option class="bg-dark">Pet Boarding</option>
+                                          <option class="bg-dark">Pet Boarding</option>
+                                          <option class="bg-dark">Pet Boarding</option>
+                                          
+                                        </select>
+                                        <div class="invalid-tooltip ">
+                                          Please select a valid Destination.
+                                        </div>
+                                   
+    
+    
+    
+    
+    
+    
+                                    
+                                    
+                                </div>
+                            </div>
+                            <div class="col-12 text-white">
+                               <div class="form-floating">
+                                <textarea class="form-control  bg-transparent text-white"  id="message" style="height:100px" required></textarea>
+                                <label for="message text-white">Special Request</label>
                                 <div class="valid-feedback"> Valid </div>
                                 <div class="invalid-feedback"> Please fill out this field </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-floating">
-                                <label for="name" class=" form-label text-white ">Your Email</label>
-                                <input type="email" placeholder="Your email" class="form-control bg-transparent text-white" id="email" required>
-                                <div class="valid-feedback"> Valid </div>
-                                <div class="invalid-feedback"> Please fill out this field </div> 
-                                
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-floating" id="date3">
-                                <label for="datetime" class="text-white "></label>
-                                <input type="date" class="form-control text-white bg-transparent " id="calendar" required > 
-                                <div class="valid-feedback"> Valid </div>
-                                <div class="invalid-feedback"> Please fill out this field </div>
-                                
-                            </div>
-                        </div>
-
-                        <div class="col-md-6">
-                            <div class="form-floating" id="date3">
-                                <label for="datetime" class="text-white "></label>
-                                <input type="time" class="form-control text-white bg-transparent " id="time" required > 
-                                <div class="valid-feedback"> Valid </div>
-                                <div class="invalid-feedback"> Please fill out this field </div>
-                                
-                            </div>
-                        </div>
-                        <!--Select box-->
-                        <div class="col-md-6  text-white "  >
-            
-                            <div class="form-floating" >
-                                <label for="validationTooltip04" class="form-label  ">Services</label>
-                                    <select class="form-select bg-transparent text-white  " id="validationTooltip04" required>
-                                      <option class="bg-dark text-white " selected disabled value="" ></option>
-                                      <option class="bg-dark">Pet Boarding</option>
-                                      <option class="bg-dark">Pet Grooming</option>
-                                      <option class="bg-dark">Pet Boarding</option>
-                                      <option class="bg-dark">Pet Boarding</option>
-                                      <option class="bg-dark">Pet Boarding</option>
-                                      
-                                    </select>
-                                    <div class="invalid-tooltip ">
-                                      Please select a valid Destination.
-                                    </div>
                                
-
-
-
-
-
-
-                                
-                                
+                               </div> 
+                            </div>
+    
+                           
+    
+                            <!--button-->
+                            <div class="col-12">
+                                <button class="btn btn-outline-light w-100 py-3"  type="submit">Book Now</button>
                             </div>
                         </div>
-                        <div class="col-12 text-white">
-                           <div class="form-floating">
-                            <textarea class="form-control  bg-transparent text-white"  id="message" style="height:100px" required></textarea>
-                            <label for="message text-white">Special Request</label>
-                            <div class="valid-feedback"> Valid </div>
-                            <div class="invalid-feedback"> Please fill out this field </div>
-                           
-                           </div> 
-                        </div>
-
-                       
-
-                        <!--button-->
-                        <div class="col-12">
-                            <button class="btn btn-outline-light w-100 py-3" type="submit">Book Now</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+                    </form>
+                </div>
+                </div>
             </div>
         </div>
     </div>
-</div>
-</div>
-</div>
-
-
-
-   <!-- newsletter -->
-    <section id = "newsletter" class = "py-5">
-        <div class = "container">
-            <div class = "d-flex flex-column align-items-center justify-content-center">
-                <div class = "title text-center pt-3 pb-5">
-                    <h2 class = "position-relative d-inline-block ms-4">Newsletter Subscription</h2>
-                </div>
-
-                <p class = "text-center text-muted">Get awesome exclusives and more deals when you subscribe!</p>
-                <div class = "input-group mb-3 mt-3">
-                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
-                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- end of newsletter -->
-
-
-
- 
-
-
     
-    <!-- footer -->
+    
+    
+  <!---footer -->
     <footer class = "bg-dark py-5">
         <div class = "container">
             <div class = "row text-white g-4">
                 <div class = "col-md-6 col-lg-3">
                     <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">HAPPY PETS</a>
-                    <p class = "text-white text-muted mt-3">"We are one of the most trusted in our field. We provide excellent grooming service, sell quality pet merchandise,and long-term dog&cat boarding services."</p>
+                    <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
                 </div>
 
                 <div class = "col-md-6 col-lg-3">
                     <h5 class = "fw-light">Links</h5>
                     <ul class = "list-unstyled">
                         <li class = "my-3">
-                            <a href = "index.html" class = "text-white text-decoration-none text-muted">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> Home
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "shop.html" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> Shop
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Collection
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "services.html" class = "text-white text-decoration-none text-muted">
-                                <i class = "fas fa-chevron-right me-1"></i> Services
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Blogs
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "" class = "text-white text-decoration-none text-muted">
+                            <a href = "#" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> About Us
                             </a>
                         </li>
@@ -371,7 +324,7 @@
                             <i class = "fas fa-map-marked-alt"></i>
                         </span>
                         <span class = "fw-light">
-                            Albert Street,764 Fairview, Quezon City,Philippines
+                            Albert Street, New York, AS 756, United States of America
                         </span>
                     </div>
                     <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
@@ -379,7 +332,7 @@
                             <i class = "fas fa-envelope"></i>
                         </span>
                         <span class = "fw-light">
-                            happypetssupport@gmail.com
+                            attire.support@gmail.com
                         </span>
                     </div>
                     <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
@@ -397,7 +350,7 @@
                     <div>
                         <ul class = "list-unstyled d-flex">
                             <li>
-                                <a href = "https://www.facebook.com/profile.php?id=100089342208400" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
                                     <i class = "fab fa-facebook-f"></i>
                                 </a>
                             </li>
@@ -423,76 +376,26 @@
         </div>
     </footer>
     <!-- end of footer -->
-
-
-
-    
-
-
-
- <!-- Messenger Chat Plugin Code -->
- <div id="fb-root"></div>
-
- <!-- Your Chat Plugin code -->
-  <div id="fb-customer-chat" class="fb-customerchat">
- </div>
-
+<!---Modal --> 
 <script>
-  var chatbox = document.getElementById('fb-customer-chat');
-  chatbox.setAttribute("page_id", "102174862782510");
-  chatbox.setAttribute("attribution", "biz_inbox");
-</script>
+    const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
 
-<!-- Your SDK code -->
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      xfbml            : true,
-      version          : 'v15.0'
-    });
-  };
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})
+</script> 
+ <!--jquery-->
+ <script src="js/jquery-3.6.3.js"></script>
 
-  (function(d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (d.getElementById(id)) return;
-    js = d.createElement(s); js.id = id;
-    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-    fjs.parentNode.insertBefore(js, fjs);
-  }(document, 'script', 'facebook-jssdk'));
-</script>
-
-
-    
-    
-
-
-    <!--jquery-->
-    <script src="js/jquery-3.6.3.js"></script>
-
-    <!---isotope js----->
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+ <!---isotope js----->
+ <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
 
 
     <!--bootstarp js------>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <!--custom JS-->
-    <script src = "js/script.js"></script> 
-
-
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-
-    <!-- Contact Javascript File -->
-    <script src="mail/jqBootstrapValidation.min.js"></script>
-    <script src="mail/contact.js"></script>
-
-   
- 
+<script src = "js/script.js"></script> 
+<script src="index2.js"></script>
 </body>
-</html>
+ </html>
+ 
