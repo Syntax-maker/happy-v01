@@ -35,51 +35,52 @@
 </head>
 <body>
     
-     <!-- navbar -->
-     <nav class = "navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
-        <div class = "container">
-            <a class = "navbar-brand d-flex justify-content-between align-items-center order-lg-0" href = "index.html">
-                <img src = "img/paw.png" alt= "site icon">
-                <h5 class="text-uppercase fw-lighter ms-2">Happy Pets</h5>
-            </a>
-
-            <div class = "order-lg-2 nav-btns">
-                <button type = "button" class = "btn position-relative">
-                    <i class = "fa fa-shopping-cart"></i>
-                    <span class = "position-absolute top-0 start-100 translate-middle badge bg-primary">0</span>
-                </button>
-             
-            </div>
-
-            <button class = "navbar-toggler border-0" type = "button" data-bs-toggle = "collapse" data-bs-target = "">
-                <span class = "navbar-toggler-icon"></span>
-            </button>
-
-            <div class = "collapse navbar-collapse order-lg-1" id = "navMenu">
-                <ul class = "navbar-nav mx-auto text-center">
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "index.html">home</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "new-shop.html">shop</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "services.html">Services</a>
-                    </li>
+      <!-- navbar -->
+    <div class="container nav">
+        <nav class="containter navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+            <div class="container">
+                <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                    <img src="img/paw.png" class="mb-2" alt="site icon">
+                    <h5 class="text-uppercase fw-lighter ms-2">Happy Pets</h5>
                     
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "nav-link text-uppercase text-dark" href = "about.html">about us</a>
-                    </li>
-                    <li class = "nav-item px-2 py-2">
-                        <a class = "active nav-link text-uppercase text-dark" href = "contact.html">contact</a>
-                    </li>
-                   
-                </ul>
+                </a>
+                <div class="order-lg-2 nav-btns">
+                    <form class="text-end order-lg-3">
+                        <button class="btn-add position-relative border-0 bg-transparent" type="button"
+                            onclick="location.href='cart2.html'"> <i class="fa fa-shopping-cart"></i>
+                           
+                            <span id=" cart-total"
+                                class="position-absolute top-0 start-100 translate-middle badge bg-primary border-0">0</span>
+                        </button>
+                    </form>  
+                </div>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                        <div class="navbar-toggler-icon"></div>
+                    </button>
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="services.html">services</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="about.html">about us</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+               
             </div>
+        </nav>
         </div>
-    </nav>
     <!--end of navbar----->
-
 
 
     <section id="page-header" class="about-header">
