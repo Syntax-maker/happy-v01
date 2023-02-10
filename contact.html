@@ -7,7 +7,7 @@
     <title>Happy Pets</title>
 
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <link href="img/paww.png" rel="icon">
 
     <!-- Google Web Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
@@ -88,6 +88,39 @@
 
         <p>LEAVE A MESSSAGE, We love to hear from you!</p>
     </section>
+    
+     <section id="form-details">
+        <form action="">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="E-mail">
+            <input type="text" placeholder="Subject">
+            <textarea name="" id=""cols="30" rows="10" placeholder="Your Message">
+              
+            </textarea>
+            <button class="normal">Submit</button>
+        </form>
+        <div class="people">
+            <div>
+                <img src="img/people1.png" alt="">
+                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people2.png" alt="">
+                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people3.png" alt="">
+                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+        </div>
+       
+    </section>
+    
 
     <section id="contact-details" class="section-p1">
        <div class="details">
@@ -125,53 +158,11 @@
        </div>
     </section>
 
-    <section id="form-details">
-        <form action="">
-            <span>LEAVE A MESSAGE</span>
-            <h2>We love to hear from you</h2>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="E-mail">
-            <input type="text" placeholder="Subject">
-            <textarea name="" id=""cols="30" rows="10" placeholder="Your Message">
-              
-            </textarea>
-            <button class="normal">Submit</button>
-        </form>
-        <div class="people">
-            <div>
-                <img src="img/people1.png" alt="">
-                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
-                <br>Email: vargasmyka8@gmail.com</p>
-            </div>
-            <div>
-                <img src="img/people2.png" alt="">
-                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
-                <br>Email: vargasmyka8@gmail.com</p>
-            </div>
-            <div>
-                <img src="img/people3.png" alt="">
-                <p><span>Jhon Doe</span>Marketing Manager<br> Phone: +639291344056
-                <br>Email: vargasmyka8@gmail.com</p>
-            </div>
-        </div>
-       
-    </section>
+   
 
-    
-
-
-
-
-
-
-
-       
-
-
+   
  
-
-
-    <!-- newsletter -->
+   <!-- newsletter -->
     <section id = "newsletter" class = "py-5">
         <div class = "container">
             <div class = "d-flex flex-column align-items-center justify-content-center">
@@ -180,14 +171,34 @@
                 </div>
 
                 <p class = "text-center text-muted">Get awesome exclusives and more deals when you subscribe!</p>
+                <form action="https://formsubmit.co/sincodenito901@gmail.com" class = "input-group mb-3 mt-3" method="POST">
+                
                 <div class = "input-group mb-3 mt-3">
-                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
-                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ..." required>
+                    <button class = "btn btn-primary" type = "submit"
+                    onclick="alert ('Thank you. You successfully become subscriber.')">Subscribe</button>
                 </div>
+                <input type="hidden" name="_next" value="https://syntax-maker.github.io/happy-v01/">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_autoresponse" value="Subject: Thank you for subscribing to our Happy Pet Shop!
+                Dear email,
+                
+                Thank you for subscribing to our Pet Shop! We are thrilled to have you join our community of pet lovers and enthusiasts.
+                
+                As a subscriber, you will receive regular updates on our latest products, promotions, and events. You'll also have access to exclusive offers and discounts, so be sure to keep an eye on your inbox.
+                
+                If you have any questions or need assistance, our customer service team is here to help. Simply reply to this email and we'll get back to you as soon as possible.
+                
+                Thank you again for subscribing to our Pet Shop. We can't wait to share our passion for pets with you!
+                
+                Best regards,
+                The Happy Pet Shop Team">
+            </form>
             </div>
         </div>
     </section>
     <!-- end of newsletter -->
+
 
     
     <!-- footer -->
@@ -208,7 +219,7 @@
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "shop.html" class = "text-white text-decoration-none text-muted">
+                            <a href = "new-shop.html" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> Shop
                             </a>
                         </li>
@@ -218,7 +229,7 @@
                             </a>
                         </li>
                         <li class = "my-3">
-                            <a href = "" class = "text-white text-decoration-none text-muted">
+                            <a href = "about.html" class = "text-white text-decoration-none text-muted">
                                 <i class = "fas fa-chevron-right me-1"></i> About Us
                             </a>
                         </li>
