@@ -54,6 +54,9 @@ body{
 .nav-link:hover{
     color: var(--pink)!important;
 }
+.navbar-nav .nav-item a.active {
+    color: var(--pink)!important; 
+}
 .nav-item{
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
