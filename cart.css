@@ -8,11 +8,46 @@
   --lg-font: 'Kaisei Tokumin', serif;
   --sm-font: 'Poppins', sans-serif;
   --pink: #e5345b;
+  
   --after-content: '2';
+}
+/* button */
+.bg-primary{
+  background-color: var(--pink)!important;
 }
 
 body {
   font-family: var(--sm-font);
+}
+
+
+/* navbar */
+.navbar{
+  -webkit-box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand img{
+  width: 30px;
+}
+.navbar-brand span{
+  letter-spacing: 2px;
+  font-family: var(--lg-font);
+}
+
+.navbar-brand h5{
+  letter-spacing: 2px;
+  font-family: var(--lg-font);
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: var(--pink)!important;
+}
+.navbar-nav .nav-item .active {
+  color: var(--pink)!important; 
+}
+
+.nav-item{
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.05);
 }
 
 
@@ -42,6 +77,7 @@ body {
 .shop-item-image {
   height: 250px;
 }
+
 
 /* align*/
 .special-img {
@@ -263,9 +299,6 @@ body {
   height: 50px;
   color: rgb(255, 31, 31);
 
-}
-.nav a{
-  display: none;
 }
 
 .totalPriceCart {
