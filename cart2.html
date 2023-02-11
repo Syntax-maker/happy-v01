@@ -1,80 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <!-- Favicon -->
+    <title>Happy Pets | Home</title>
+
+    <!-- Favicon -->
     <link href="img/paww.png" rel="icon">
 
-    <title> Happy Cats | Cart</title>
-    <!-- bootstrap css -->
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <!-- Google Web Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+
+
 
     <!-- Flaticon Font -->
     <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
 
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
 
     <!-- fontawesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- bootstrap css -->
-    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <!-- custom css -->
+    <!-- <link rel = "stylesheet" href = "style.css"> -->
     <link rel="stylesheet" href="cart.css">
-  
-
+ 
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top shadow-sm p-3 mb-5 ">
-        <div>
-            
-        </div><form class="container">
-            <button class="btn-add position-relative border-0 bg-transparent" type="button" onclick="location.href='new-shop.html'">   
-                <i class="fa fa-solid fa-arrow-left"></i>
-           Continue ordering</span>
-        </button>
-        <button class="navbar-toggler border-0 text-end" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-            <div class="navbar-toggler-icon"></div>
-        </button>
-        <div class="collapse navbar-collapse " id="navMenu">
-            <ul class="navbar-nav mx-auto text-center">
-                <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
-                </li>
-                <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
-                </li>
-                <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark" href="services.html">services</a>
-                </li>
-                <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark" href="about.html">about us</a>
-                </li>
-                <li class="nav-item px-2 py-2">
-                    <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
-                </li>
-            </ul>
+    
+    <!-- navbar -->
+    <div class="container nav">
+        <nav class="containter navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+            <div class="container">
+                <button class="btn-add position-relative border-0 bg-transparent" type="button" onclick="location.href='new-shop.html'">   
+                    <i class="fa fa-solid fa-arrow-left"></i>
+               Continue ordering</span>
+            </button>
+                <div class="order-lg-2 nav-btns">
+                    <form class="text-end order-lg-3">
+                        <button class="btn-add position-relative border-0 bg-transparent" type="button"
+                            onclick="location.href='cart2.html'"> <i class="fa fa-shopping-cart"></i>
+                           
+                            <span id="cart-total"
+                                class="position-absolute top-0 start-100 translate-middle badge bg-primary border-0">0</span>
+                        </button>
+                    </form>  
+                </div>
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                        <div class="navbar-toggler-icon"></div>
+                    </button>
+                <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                    <ul class="navbar-nav mx-auto text-center">
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="services.html">services</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="about.html">about us</a>
+                        </li>
+                        <li class="nav-item px-2 py-2">
+                            <a class="nav-link text-uppercase text-dark" href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+               
+            </div>
+        </nav>
         </div>
-       
-        </form>
-
-        <div class="nav">
-            <a href="cart.html">cart<span>0</span></a>
-        </div>
-      </nav>
-   
+    <!--end of navbar----->
+    
+ 
     <!-- Cart -->
     <section class="py-5">
         <div class="container pt-5">
@@ -147,6 +152,52 @@
 
     
     </section>
+
+
+<!-- Messenger Chat Plugin Code -->
+<div id="fb-root"></div>
+
+<!-- Your Chat Plugin code -->
+<div id="fb-customer-chat" class="fb-customerchat">
+</div>
+
+<script>
+  var chatbox = document.getElementById('fb-customer-chat');
+  chatbox.setAttribute("page_id", "102174862782510");
+  chatbox.setAttribute("attribution", "biz_inbox");
+</script>
+
+<!-- Your SDK code -->
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v15.0'
+    });
+  };
+
+  (function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    
+    
+<!-----Go to Booking section--->
+<script>
+    document.getElementById("go-to-book1").addEventListener("click", function() {
+      window.location.href = "services.html#formSection";
+    });
+  </script>
+    
+
+
+
     <!--jquery-->
     <script src="js/jquery-3.6.3.js"></script>
 
@@ -156,8 +207,26 @@
 
     <!--bootstarp js------>
     <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
-    <script src="main.js"></script>
-<script src="index2.js"></script>
-</body>
+    <!--custom JS-->
+    <script src = "js/script.js"></script> 
 
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+    <!-- Main js -->
+    <script src="main.js"></script>
+    <script src="index2.js"></script>
+    
+  
+</body>
 </html>
