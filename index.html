@@ -57,7 +57,7 @@
                 <div class="collapse navbar-collapse order-lg-1" id="navMenu">
                     <ul class="navbar-nav mx-auto text-center">
                         <li class="nav-item px-2 py-2">
-                            <a class="nav-link text-uppercase text-dark" href="index.html">home</a>
+                            <a class="nav-link text-uppercase text-dark active" href="index.html">home</a>
                         </li>
                         <li class="nav-item px-2 py-2">
                             <a class="nav-link text-uppercase text-dark" href="new-shop.html">shop</a>
@@ -627,6 +627,17 @@
     <!-- Main js -->
     <script src="main.js"></script>
     <script src="index.js"></script>
+    
+   <!---Active nav--->
+ <script>
+  const links = document.querySelectorAll(".nav-item a");
+  const currentPage = window.location.pathname;
 
+  links.forEach((link) => {
+    if (link.getAttribute("href") === currentPage) {
+      link.classList.add("active");
+    }
+  });
+</script> 
 </body>
 </html>
