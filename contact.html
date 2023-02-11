@@ -94,37 +94,76 @@
   
  <!-- Contact Details -->
 
- <section id="form-details">
-    <form action="">
-        <span>LEAVE A MESSAGE</span>
-        <h2>We love to hear from you</h2>
-        <input type="text" placeholder="Your Name">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Subject">
-        <textarea name="" id=""cols="30" rows="10" placeholder="Your Message">
+
+ <div class="container">
+    <div class="row align-items-center">
+        <div class="col-md-1">
+        </div>
+   <div class="col-md-5 mt-3 mx-2">
+    <span>LEAVE A MESSAGE</span>
+    <h2>We love to hear from you</h2>
+            <form action="https://formsubmit.co/sincodenito901@gmail.com" class="needs-validation mx-2 text-start" id="contactus" method="POST" novalidate>
+                <div class="form-group-lg fs-5 py-3">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" name="Name" id="name" aria-describedby="name" required/>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback "></div>
+                </div>
+                <div class="form-group-lg fs-5 py-3">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" name="Email" id="email" aria-describedby="email" required/>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback">Invalid Email</div>
+                </div>
+                <div class="form-group-lg fs-5 py-3">
+                    <label for="number">Phone Number:</label>
+                    <input type="number" class="form-control" name="Phone Number" id="number" aria-describedby="number">
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback"></div>
+                </div>
+                <div class="form-group-lg fs-5 py-3">
+                    <label for="name">Subject:</label>
+                    <input type="text" class="form-control" name="Subject" id="name" aria-describedby="name" required/>
+                    <div class="valid-feedback">Valid</div>
+                    <div class="invalid-feedback "></div>
+                </div>
+                <div class="form-group-lg fs-5 pt-3 pb-5">
+                    <label for="exampleFormControlTextarea1">Message:</label>
+                    <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div> 
+                
+                <button type="submit" class="btn btn-primary" id="subscribebtn">Submit</button>
+                <input type="hidden" name="_next" value="https://syntax-maker.github.io/happy-v01/">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+            
+        </div>
+ 
+        <div class="col-md-5 mt-5 mx-2 text-center">
+            <span>MEET OUR TEAM</span>
+            <h2 class="text-center">Our Team</h2><br>
+            <div>
+                <img src="img/people1.png" alt="">
+                <p><span>Jhon Doe</span> <br>Happy Pets - Owner<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people2.png" alt="">
+                <p><span>Kazuha Kaedehara</span><br>Store Manager <br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/people3.png" alt="">
+                <p><span>Kujou Sara</span> <br> Pet Shop Assistant<br> Phone: +639291344056
+                <br>Email: vargasmyka8@gmail.com</p>
+            </div>
           
-        </textarea>
-        <button class="normal border-0">Submit</button>
-    </form>
-    <div class="people">
-        <div>
-            <img src="img/people1.png" alt="">
-            <p><span>Jhon Doe</span> <br>Marketing Manager<br> Phone: +639291344056
-            <br>Email: vargasmyka8@gmail.com</p>
-        </div>
-        <div>
-            <img src="img/people2.png" alt="">
-            <p><span>Jhon Doe</span> <br>Marketing Manager<br> Phone: +639291344056
-            <br>Email: vargasmyka8@gmail.com</p>
-        </div>
-        <div>
-            <img src="img/people3.png" alt="">
-            <p><span>Jhon Doe</span><br>Marketing Manager<br> Phone: +639291344056
-            <br>Email: vargasmyka8@gmail.com</p>
-        </div>
+        
+        </div> 
+        
     </div>
-   
-</section>
+</div>
+
 
 <!-- end of contact details -->
 
